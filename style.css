@@ -101,7 +101,7 @@ html {
 
 @media only screen and (max-width: 600px) {
   .WelcomeImg {
-    background: url("../images/image1.jpg") fixed;
+    background: url("images/image1.jpg") fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -109,14 +109,14 @@ html {
   
   
   .SectionOneImg {
-    background: url("../images/image2.jpg") fixed;
+    background: url("images/image2.jpg") fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   
   .SectionTwoImg {
-    background: url("../images/image3.jpg") fixed;
+    background: url("images/image3.jpg") fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

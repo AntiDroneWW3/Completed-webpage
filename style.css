@@ -99,23 +99,4 @@ html {
 }
 
 
-@media only screen and (max-width: 600px) {
-  .WelcomeImg {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  
-  .SectionOneImg {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .SectionTwoImg {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-}
+

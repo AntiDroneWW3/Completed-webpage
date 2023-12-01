@@ -1,0 +1,124 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.WelcomeImage .SectionOneImg .SectionTwoImg .EndImg {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+}
+
+.WelcomeImg {
+  background: url("../images/image1.jpg") fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; 
+  min-width: 100%;
+}
+
+
+.SectionOneImg {
+  background: url("../images/image2.jpg") fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; 
+  min-width: 100%;
+}
+
+.SectionTwoImg {
+  background: url("../images/image3.jpg") fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; 
+  min-width: 100%;
+}
+
+.EndImg {
+  background: url("../images/image4.jpg") fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: relative;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: rgb(138, 13, 221);
+  color: rgb(35, 204, 125);
+  border-radius: 10px;
+
+  padding: 20px;
+}
+
+.ptext .border .trans {
+  background-color: transparent;
+}
+
+.section  a img{
+  height: 50px;
+  border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .WelcomeImg {
+    background: url("../images/image1.jpg") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+  .SectionOneImg {
+    background: url("../images/image2.jpg") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .SectionTwoImg {
+    background: url("../images/image3.jpg") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
